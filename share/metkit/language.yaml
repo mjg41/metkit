@@ -461,7 +461,7 @@ _field: &_field
     category: data
     flatten: true
     type: enum
-    multiple: true
+    multiple: false
     values:
     - [tile]
 
