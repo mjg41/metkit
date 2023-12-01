@@ -457,6 +457,24 @@ _field: &_field
     never:
     - type: [tf, ob]
 
+  paramtype:
+    category: data
+    flatten: true
+    type: enum
+    multiple: true
+    values:
+    - [tile]
+
+  tile:
+    category: data
+    multiple: true
+    type: any
+
+  tileattribute:
+    category: data
+    multiple: true
+    type: any
+
 #################################################################
 
   # year
